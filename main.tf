@@ -37,7 +37,7 @@ resource "aws_security_group" "wp_sg" {
 
 # Local variables block for configuration values
 locals {
-    aws_key = "MZ_AWS_KEY"   # SSH key pair name for EC2 instance access
+    aws_key = "east1-key"   # SSH key pair name for EC2 instance access
 }
 
 # EC2 instance resource definition
