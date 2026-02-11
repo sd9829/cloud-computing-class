@@ -8,7 +8,7 @@ data "aws_vpc" "default" {
 }
 
 resource "aws_security_group" "wp_sg" {
-  name   = "wp-sg"
+  name   = "wp-sg-1"
   vpc_id = data.aws_vpc.default.id
 
   ingress {
